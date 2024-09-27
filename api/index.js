@@ -1,7 +1,7 @@
 import { Hono } from 'hono'
 import { handle } from 'hono/vercel'
 import { myName } from '../utils/name.js'
-import { testName } from './_test.js'
+import { testName } from './subdir/_test.js'
 
 const app = new Hono().basePath('/api')
 
